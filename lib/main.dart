@@ -4,7 +4,12 @@ import 'package:weather_app/data/view_model/provider_model.dart';
 import 'package:weather_app/screen/home_page.dart';
 
 void main() {
-  runApp(ChangeNotifierProvider(create: (_) => ProviderModel()));
+  runApp(
+    ChangeNotifierProvider(
+      create: (context) => ProviderModel(),
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
