@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:weather_app/data/view_model/provider_model.dart';
+import 'package:weather_app/screen/example.dart';
 import 'package:weather_app/screen/home_page.dart';
+import 'package:weather_app/screen/samarqand_image.dart';
 
 void main() {
   runApp(
